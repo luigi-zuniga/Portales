@@ -1,0 +1,243 @@
+*
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav
+{
+    font-weight:100;
+    background:#F7FAFF;
+    padding-left:70px;
+    padding-right:70px;
+}
+
+.nav button
+{
+    background-color:#4C84DB;
+    padding:6px 18px;
+}
+
+.nav-header
+{
+    padding-left:70px;
+}
+
+.nav-header-logo
+{
+    color:#4C84DB;
+    float:left;
+    margin-top:15px;
+    margin-right:10px;
+}
+
+.nav-header-text
+{
+    margin-top:0px;
+    float:left;
+}
+
+
+.nav-header-text h1
+{
+    color:#2B559E;
+    font-size:32px;
+    font-weight:500;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #3D7BDD;
+}
+
+@media (min-width: 768px)
+{
+    .navbar-form {
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-right: 0;
+        margin-left: 100px;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+@media(max-width: 992px )
+{
+    .nav-header
+    {
+        padding-left:55px;
+    }
+    .nav-header-text h1
+    {
+        font-size:24px;
+        font-weight:500;
+        font-style: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/******************************************/
+.carousel-static
+{
+    margin-top:-20px;            
+}
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+
+/*********************************************/
+.page-header
+{
+    padding:0px 18px 0px 18px;
+    border:none;
+}
+
+.page-header h2
+{
+    color:#142D60;
+}
+
+.page-header small
+{
+    color:#2E59D9;
+}
+
+
+.panel-icon img
+{
+    width:30px;
+}
+
+.thumbnail {
+    background:#F3F8FF;
+    padding: 0px;
+    margin:0px;
+    position:relative;
+    overflow:hidden;
+    border:1px solid #84A9DA;
+}
+
+.thumbnail h4
+{
+    font-size:12px;
+    font-weight:bold;
+    color:#2E59D9;
+}
+
+.thumbnail button
+{
+    border:1px solid #84A9DA;
+    color:#4C84DB;
+}
+
+.thumbnail-comite
+{
+    padding:5px;
+}
+.thumbnail p
+{
+    color:#2B559E;
+}
+
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(94, 145, 223, 0.85);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.caption i
+{
+    padding-top:60px;
+    color:#fff;
+}
+
+.caption a
+{
+    color:#fff;
+    text-decoration:none;
+}
+
+.thumbnail:hover .caption {
+    top:0%;
+}
+
+
+/****************************************************************/
+.recomendados
+{
+    background-color:#E9E9E9;
+    margin-top:60px;
+}
+
+.container-recomentaciones
+{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+
+
+/******************************************************************/
+.panel-icon i
+{
+    color:#016cf0;
+}
+
+
+.thumbnail-books
+{
+    padding: 0px;
+}
+
+.thumbnail-text strong
+{
+    color:#2B559E;
+}
+.thumbnail-text span
+{
+    font-weight: 100;
+    color: #3D7BDD;
+}
+.thumbnail-titulo h4
+{
+    color:#2B559E;
+    padding:3px;
+    font-size:16px;
+}
+
+
+.thumbnail-books .categoria 
+{
+    position:absolute;
+    bottom:220px;
+}
+
+.thumbnail-books .ano 
+{
+    position:absolute;
+    bottom:30px;
+}
