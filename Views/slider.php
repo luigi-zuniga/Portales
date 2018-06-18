@@ -15,4 +15,5 @@
 					</h1>
 				</div>
 			</div>
-	   </div>
+	</div>
+	<!-- End slider -->
