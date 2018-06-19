@@ -3,6 +3,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+
 .nav
 {
     font-weight:100;
@@ -40,7 +41,7 @@
 .nav-header-text h1
 {
     color:#2B559E;
-    font-size:32px;
+    font-size:28px;
     font-weight:500;
     font-style: normal;
     margin-top: 10px;
@@ -125,7 +126,7 @@
 .thumbnail {
     background:#F3F8FF;
     padding: 0px 3px;
-    margin:0px;
+    margin:3px;
     position:relative;
     overflow:hidden;
     border:1px solid #84A9DA;
@@ -133,8 +134,8 @@
 
 .thumbnail h4
 {
-    font-size:16px;
-    font-weight:bold;
+    font-size:13px;
+    font-weight:300;
     color:#2E59D9;
 }
 
@@ -142,6 +143,7 @@
 {
     border:1px solid #84A9DA;
     color:#4C84DB;
+        margin-bottom:5px;
 }
 
 .thumbnail-comite
@@ -151,7 +153,8 @@
 .thumbnail p
 {
     color:#2B559E;
-    font-size:13px;
+    font-size:12px;
+    font-weight:100;
 }
 
 
@@ -170,7 +173,7 @@
 }
 
 .thumbnail .caption {
-    padding-top: 35px;
+    padding-top: 25px;
     padding-right:50px;
 }
 
@@ -209,7 +212,6 @@
 .btn 
 {
     font-size:13px;
-    margin-bottom:5px;
 }
 
 /******************************************************************/
@@ -242,7 +244,7 @@
 {
     color:#2B559E;
     padding:3px;
-    font-size:16px;
+    font-size:15px;
 }
 
 
@@ -328,6 +330,15 @@
     margin-top:5px;
 }
 
+.thumbnail-titulo
+{
+    margin-bottom:30px;
+}
+
+.thumbnail-titulo h4
+{
+    color:#2E59D9;
+}
 
 /*********   LIBROS RECOMENDADOS CAROUSEL **********/
 
@@ -346,8 +357,58 @@
 
 .footer
 {
+    font-weight: lighter;
+    display:flex;
     margin-top:50px;
-    height:300px;
+    height:250px;
     background:#EEF5FE;
     border-top:1px solid  #84A9DA;
 }
+
+.footer-enlaces
+{
+    font-size:14px;
+    padding-top:50px;
+    padding-left:30px;
+}
+
+.footer-enlaces ul
+{
+    list-style:none;
+}
+
+.footer-enlaces li
+{
+    padding-bottom:10px;
+}
+
+.footer-enlaces p
+{
+    padding-left:40px;
+    color: #3D7BDD;
+    
+}
+.footer-logos
+{
+    padding-top:55px;
+}
+
+.footer-logos img
+{
+    margin-left:30px;
+}
+
+
+.footer-search 
+{
+    margin-top:170px;
+    margin-right:50px;
+}
+
+
+/****** set column ******/
+.col-lg-3,.col-md-3,.col-sm-6,.col-xs-12
+{
+    padding-right: 0px !important; 
+}
+/***********************/
