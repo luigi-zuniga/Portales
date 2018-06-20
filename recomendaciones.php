@@ -18,7 +18,7 @@
         include("Views/Recomendaciones/recom_Header.php");
 	?>
 
-     <div class="container-fluid">
+     <div class="container">
 		 <div class="row">
          <?php
 			 include("Views/Recomendaciones/recom_Busqueda.php");   

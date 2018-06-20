@@ -1,6 +1,5 @@
-	<!--Header con menu de navegacion-->
-	<header>
-	<nav class="navbar navbar-default" role="navigation">
+<!--Header con menu de navegacion-->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -9,7 +8,7 @@
 					<span class="icon-bar"></span>
 				</button>
 			</div>
-
+			<div class="container">
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<div class="nav-header">
 					<div class="nav-header-logo">
@@ -19,18 +18,17 @@
 						<h1>Recomendaciones<br/> de Lectura</h1>
 					</div>
 				</div>
-				<ul class="nav navbar-nav navbar-right">
-						<form class="navbar-form" role="search">
-							<input type="text" class="form-control" placeholder="¿Buscas algo en particular?"></input>
-							<button type="button" class="btn btn-primary btn-md">Buscar</button>
+				<ul class="nav navbar-nav">
+					<form class="navbar-form" role="search">
+							<input type="text" class="form-control" placeholder="¿Buscas algo en particular?" />
+							<button type="button" class="btn btn-primary btn-sm">Buscar</button>
 						</form>
-						<li><a href="index.php">Home</a></li>
-						<li class="dropdown">
-							<a href="recomendaciones.php"><u>Recomendaciones</u></a>
-						</li>
-						<li><a href="#">Comités</a></li>
-						<li><a href="#">Contacto</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="recomendaciones.php"><u>Recomendaciones</u></a></li>
+					<li><a href="#">Comités</a></li>
+					<li><a href="#">Contacto</a></li>
 				</ul>
 			</div>    
-		</nav>
-	</header>  
+		</div>
+	</nav>
+

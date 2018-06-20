@@ -4,24 +4,16 @@
 }
 
 /******** header nav styles *******/
-
 .nav
 {
     font-weight:100;
     background:#F7FAFF;
-    padding-left:70px;
-    padding-right:79px;
 }
 
 .nav button
 {
     background-color:#4C84DB;
     padding:6px 18px;
-}
-
-.nav-header
-{
-    padding-left:70px;
 }
 
 .nav-header-logo
@@ -49,38 +41,24 @@
     margin-bottom: 10px;
 }
 
+@media(min-width: 768px)
+{
+    .navbar-nav 
+    {
+        float: right;
+    }
+
+    .navbar-form
+    {
+
+        margin-left: 60px;
+    }
+}
+
+
+
 .navbar-default .navbar-nav > li > a {
     color: #3D7BDD;
-}
-
-@media (min-width: 768px)
-{
-    .navbar-form {
-        width: auto;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-right: 0px;
-        margin-left: 100px;
-        border: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-}
-
-@media(max-width: 992px )
-{
-    .nav-header
-    {
-        padding-left:55px;
-    }
-    .nav-header-text h1
-    {
-        font-size:24px;
-        font-weight:500;
-        font-style: normal;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
 }
 
 
@@ -91,7 +69,7 @@
 /******** slider header styles *******/
 .carousel-static
 {
-    margin-top:-20px;            
+    margin-top:100px;            
 }
 
 .main-text
@@ -124,8 +102,8 @@
 
 .panel-icon img
 {
-    width:35px;
-    padding-right:6px;
+    width: 33px;
+    padding-right: 3px;
 }
 
 .thumbnail {
@@ -207,12 +185,7 @@
 }
 
 
-/****************************************************************/
-.container-recomentaciones
-{
-   margin-left:5%;
-  margin-right:5%;
-}
+
 
 
 /******************************************************************/
@@ -229,7 +202,7 @@
 
 .thumbnail-text
 {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .thumbnail-text strong
@@ -244,7 +217,6 @@
 .thumbnail-titulo h4
 {
     color:#2B559E;
-    padding:3px;
     font-size:15px;
 }
 
@@ -264,18 +236,12 @@
 
 /*********  LIBROS RECOMENDADOS  ***********/
 
-.container-books
-{
-    margin-top:50px;
-    background:#ECECEC;
-    padding-left:5%;
-    padding-right:5%;
-}
+
 
 
 .thumbnail-books {
     background:#F3F8FF;
-    padding: 0px 3px;
+    padding: 0px 0px;
     margin:0px;
     position:relative;
     overflow:hidden;
@@ -302,7 +268,6 @@
     padding-right:50px;
 }
 
-
 .caption-books i
 {
 
@@ -326,10 +291,7 @@
     bottom:50%;
 }
 
-.thumbnail-text
-{
-    margin-top:5px;
-}
+
 
 .thumbnail-titulo
 {
@@ -341,20 +303,30 @@
     color:#2E59D9;
 }
 
-/*********   LIBROS RECOMENDADOS CAROUSEL **********/
 
 
 
 
-
-/******** COMITES DESTACADOs ********/
-.container-destacados
-{
-    margin-left:5%;
-    margin-right:5%;
-}
 
 /************** FOOTER **************/
+
+
+
+/****** set column ******/
+.col-lg-3,.col-md-3,.col-sm-6,.col-xs-12
+{
+    padding-right: 0px !important; 
+}
+/***********************/
+.bg-light-gray {
+    background-color: #eee;
+}
+
+#books-galery
+{
+    margin-top:40px;
+}
+
 
 .footer
 {
@@ -364,17 +336,18 @@
     height:250px;
     background:#EEF5FE;
     border-top:1px solid  #84A9DA;
+    padding: 5px 0;
 }
 
 .footer-enlaces
 {
     font-size:14px;
     padding-top:50px;
-    padding-left:30px;
 }
 
 .footer-enlaces ul
 {
+    margin-left: -38px;
     list-style:none;
 }
 
@@ -385,31 +358,59 @@
 
 .footer-enlaces p
 {
-    padding-left:40px;
     color: #3D7BDD;
     
 }
+
 .footer-logos
 {
-    padding-top:55px;
-}
-
-.footer-logos img
-{
-    margin-left:30px;
+    padding-top:40px;
 }
 
 
 .footer-search 
 {
-    margin-top:170px;
-    margin-right:30px;
+    margin-top:160px;
 }
 
 
-/****** set column ******/
-.col-lg-3,.col-md-3,.col-sm-6,.col-xs-12
+@media(max-width: 986px)
 {
-    padding-right: 0px !important; 
+    .footer-search 
+    {
+        display:none;
+    }
 }
-/***********************/
+
+
+@media(max-width: 768px)
+{
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse 
+    {
+        margin-right: 0px; 
+        margin-left: 0px; 
+
+    }
+
+    .navbar-form
+    {
+        margin-top: 0px; 
+        margin-right: 0px; 
+        margin-bottom: 0px; 
+        border-bottom: none; 
+    }
+
+    
+    .nav-header-logo 
+    {
+        display:none;
+    }
+
+    .nav-header-text
+    {
+        display:none;
+    }
+
+}
+
+

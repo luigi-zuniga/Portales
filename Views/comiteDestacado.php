@@ -1,6 +1,4 @@
-<!-- Comite de destacados -->
-<div class="container-fluid">
-	<div class="container-destacados">
+
 		<div class="page-header">
 				 <h2>Comités Destacados <a href="#"><small><u>Ver todos los comités</u></small></a></h2>
 		</div>
@@ -71,5 +69,3 @@
 			 </div>  
 		</div> 
         
-	</div>
-</div>
