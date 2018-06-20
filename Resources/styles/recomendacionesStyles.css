@@ -3,8 +3,15 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-/******** header nav styles *******/
+/******** header nav styles *************/
+header .navbar-default .navbar-collapse, .navbar-default {
+    border-bottom:1px solid  #84A9DA;
+}
 
+header .collapse
+{
+    border-bottom:1px solid  #84A9DA;
+}
 .nav
 {
     font-weight:100;
@@ -83,45 +90,55 @@
     }
 }
 
-
-/******** end header nav styles *******/
-
+/******* end header nav styles *******/
 
 
-/******** slider header styles *******/
-.carousel-static
-{
-    margin-top:-20px;            
-}
 
-.main-text
-{
-    position: absolute;
-    top: 50px;
-    width: 96.66666666666666%;
-    color: #FFF;
-}
+/********* Page H1 **************/
 
-
-/*********************************************/
 .page-header
 {
-    padding:0px 18px 0px 18px;
+    color:#1B4370;
+    font-weight:300;
     border:none;
 }
 
-.page-header h2
+
+
+.form-inline .form-group
 {
-    color:#142D60;
-    font-weight:300;
+    float:right;
 }
 
-.page-header small
+.recom-filtro form
 {
-    color:#2E59D9;
+    border-top:1px solid #9AB8DF;
+    border-bottom:1px solid #9AB8DF;
+    float:right;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:2px;
 }
 
 
+article 
+{
+    border:1px solid #CDDDF4;
+    border-radius:7px;
+    padding: 38px 10px;
+    height:610px;
+}
+
+
+
+
+/******* Lista ********/
+.container .recomLista
+{
+    border:1px solid red;
+    height:900px;
+}
 .panel-icon img
 {
     width:35px;
@@ -131,7 +148,7 @@
 .thumbnail {
     background:#F3F8FF;
     padding: 0px 3px;
-    margin:3px;
+    margin:7px;
     position:relative;
     overflow:hidden;
     border:1px solid #84A9DA;
@@ -148,7 +165,7 @@
 {
     border:1px solid #84A9DA;
     color:#4C84DB;
-        margin-bottom:5px;
+    margin-bottom:5px;
 }
 
 .thumbnail-comite
@@ -184,7 +201,6 @@
 
 .caption i
 {
-
     color:#fff;
 }
 
@@ -207,152 +223,6 @@
 }
 
 
-/****************************************************************/
-.container-recomentaciones
-{
-   margin-left:5%;
-  margin-right:5%;
-}
-
-
-/******************************************************************/
-.panel-icon i
-{
-    color:#016cf0;
-}
-
-
-.thumbnail-books
-{
-    padding: 0px;
-}
-
-.thumbnail-text
-{
-    font-size: 12px;
-}
-
-.thumbnail-text strong
-{
-    color:#2B559E;
-}
-.thumbnail-text span
-{
-    font-weight: 100;
-    color: #3D7BDD;
-}
-.thumbnail-titulo h4
-{
-    color:#2B559E;
-    padding:3px;
-    font-size:15px;
-}
-
-
-.thumbnail-books .categoria 
-{
-    position:absolute;
-    bottom:220px;
-}
-
-.thumbnail-books .ano 
-{
-    position:absolute;
-    bottom:30px;
-}
-
-
-/*********  LIBROS RECOMENDADOS  ***********/
-
-.container-books
-{
-    margin-top:50px;
-    background:#ECECEC;
-    padding-left:5%;
-    padding-right:5%;
-}
-
-
-.thumbnail-books {
-    background:#F3F8FF;
-    padding: 0px 3px;
-    margin:0px;
-    position:relative;
-    overflow:hidden;
-}
-
-
-.caption-books {
-    position:absolute;
-    top:-100%;
-    right:0;
-    background:rgba(94, 145, 223, 0.85);
-    width:100%;
-    height:100%;
-    padding:2%;
-    text-align:center;
-    color:#fff !important;
-    z-index:2;
-
-}
-
-.thumbnail-books .caption-books
- {
-    padding-top: 35px;
-    padding-right:50px;
-}
-
-
-.caption-books i
-{
-
-    color:#fff;
-}
-
-.caption-books a
-{
-    color:#fff;
-    text-decoration:none;
-}
-
-.thumbnail-books:hover .caption-books {
-    top:0%;
-}
-
-.thumbnail-books:hover .caption-books a
-{
-    position: absolute;
-    top:50%;
-    bottom:50%;
-}
-
-.thumbnail-text
-{
-    margin-top:5px;
-}
-
-.thumbnail-titulo
-{
-    margin-bottom:30px;
-}
-
-.thumbnail-titulo h4
-{
-    color:#2E59D9;
-}
-
-/*********   LIBROS RECOMENDADOS CAROUSEL **********/
-
-
-
-
-
-/******** COMITES DESTACADOs ********/
-.container-destacados
-{
-    margin-left:5%;
-    margin-right:5%;
-}
 
 /************** FOOTER **************/
 
@@ -360,7 +230,7 @@
 {
     font-weight: lighter;
     display:flex;
-    margin-top:50px;
+    margin-top:350px;
     height:250px;
     background:#EEF5FE;
     border-top:1px solid  #84A9DA;
@@ -387,8 +257,8 @@
 {
     padding-left:40px;
     color: #3D7BDD;
-    
 }
+
 .footer-logos
 {
     padding-top:55px;
@@ -406,10 +276,4 @@
     margin-right:30px;
 }
 
-
 /****** set column ******/
-.col-lg-3,.col-md-3,.col-sm-6,.col-xs-12
-{
-    padding-right: 0px !important; 
-}
-/***********************/

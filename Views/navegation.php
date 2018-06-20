@@ -24,9 +24,9 @@
 							<input type="text" class="form-control" placeholder="¿Buscas algo en particular?"></input>
 							<button type="button" class="btn btn-primary btn-md">Buscar</button>
 						</form>
-						<li><a href="#">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><u>Recomendaciones</u></a>
+							<a href="recomendaciones.php"><u>Recomendaciones</u></a>
 						</li>
 						<li><a href="#">Comités</a></li>
 						<li><a href="#">Contacto</a></li>

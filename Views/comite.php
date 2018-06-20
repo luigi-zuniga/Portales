@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 	<div class="container-recomentaciones">
 			<div class="page-header">
-				 <h2>Últimas Recomendaciones <a href="#"><small><u>Ver todas las recomendaciones</u></small></a></h2>
+				 <h2>Últimas Recomendaciones <a href="recomendaciones.php"><small><u>Ver todas las recomendaciones</u></small></a></h2>
 			</div>
 
 			<!--Contenedores Comite .-->

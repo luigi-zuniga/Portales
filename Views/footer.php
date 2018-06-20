@@ -22,8 +22,8 @@
 
     <div class="col-lg-4">
             <div class="footer-logos">
-                    <img src="https://dummyimage.com/150x150/575757/e6e6ed.jpg" alt="">
-                    <img src="https://dummyimage.com/150x150/575757/e6e6ed.jpg" alt="">
+                    <img class="pull-left" src="https://dummyimage.com/150x150/575757/e6e6ed.jpg" alt="">
+                    <img class="pull-right" src="https://dummyimage.com/150x150/575757/e6e6ed.jpg" alt="">
             </div>
     </div>
 
