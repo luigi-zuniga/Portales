@@ -1,85 +1,7 @@
 *
 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-
-/******** header nav styles *******/
-.nav
-{
-    font-weight:100;
-    background:#F7FAFF;
-}
-
-.nav button
-{
-    background-color:#4C84DB;
-    padding:6px 18px;
-}
-
-.nav-header-logo
-{
-    color:#4C84DB;
-    float:left;
-    margin-top:15px;
-    margin-right:10px;
-}
-
-.nav-header-text
-{
-    margin-top:0px;
-    float:left;
-}
-
-
-.nav-header-text h1
-{
-    color:#2B559E;
-    font-size:28px;
-    font-weight:500;
-    font-style: normal;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-@media(min-width: 768px)
-{
-    .navbar-nav 
-    {
-        float: right;
-    }
-
-    .navbar-form
-    {
-
-        margin-left: 60px;
-    }
-}
-
-
-
-.navbar-default .navbar-nav > li > a {
-    color: #3D7BDD;
-}
-
-
-/******** end header nav styles *******/
-
-
-
-/******** slider header styles *******/
-.carousel-static
-{
-    margin-top:100px;            
-}
-
-.main-text
-{
-    position: absolute;
-    top: 50px;
-    width: 96.66666666666666%;
-    color: #FFF;
-}
-
 
 /*********************************************/
 .page-header
@@ -235,10 +157,6 @@
 
 
 /*********  LIBROS RECOMENDADOS  ***********/
-
-
-
-
 .thumbnail-books {
     background:#F3F8FF;
     padding: 0px 0px;
@@ -305,112 +223,10 @@
 
 
 
-
-
-
-/************** FOOTER **************/
-
-
-
-/****** set column ******/
 .col-lg-3,.col-md-3,.col-sm-6,.col-xs-12
 {
     padding-right: 0px !important; 
 }
-/***********************/
-.bg-light-gray {
-    background-color: #eee;
-}
 
-#books-galery
-{
-    margin-top:40px;
-}
-
-
-.footer
-{
-    font-weight: lighter;
-    display:flex;
-    margin-top:50px;
-    height:250px;
-    background:#EEF5FE;
-    border-top:1px solid  #84A9DA;
-    padding: 5px 0;
-}
-
-.footer-enlaces
-{
-    font-size:14px;
-    padding-top:50px;
-}
-
-.footer-enlaces ul
-{
-    margin-left: -38px;
-    list-style:none;
-}
-
-.footer-enlaces li
-{
-    padding-bottom:10px;
-}
-
-.footer-enlaces p
-{
-    color: #3D7BDD;
-    
-}
-
-.footer-logos
-{
-    padding-top:40px;
-}
-
-
-.footer-search 
-{
-    margin-top:160px;
-}
-
-
-@media(max-width: 986px)
-{
-    .footer-search 
-    {
-        display:none;
-    }
-}
-
-
-@media(max-width: 768px)
-{
-    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse 
-    {
-        margin-right: 0px; 
-        margin-left: 0px; 
-
-    }
-
-    .navbar-form
-    {
-        margin-top: 0px; 
-        margin-right: 0px; 
-        margin-bottom: 0px; 
-        border-bottom: none; 
-    }
-
-    
-    .nav-header-logo 
-    {
-        display:none;
-    }
-
-    .nav-header-text
-    {
-        display:none;
-    }
-
-}
 
 

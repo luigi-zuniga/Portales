@@ -1,0 +1,64 @@
+/******** header nav styles *******/
+.nav
+{
+    font-weight:100;
+    background:#F6FAFE;
+}
+
+.navbar-default
+{
+    border-bottom:1px solid #A2BEE2;
+}
+
+.nav button
+{ 
+    background-color:#4C84DB;
+    padding:6px 18px;
+}
+
+.nav-header-logo
+{
+    color:#4C84DB;
+    float:left;
+    margin-top:15px;
+    margin-right:10px;
+}
+
+.nav-header-text
+{
+    margin-top:0px;
+    float:left;
+}
+
+
+.nav-header-text h1
+{
+    color:#2B559E;
+    font-size:28px;
+    font-weight:500;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media(min-width: 768px)
+{
+    .navbar-nav 
+    {
+        float: right;
+    }
+
+    .navbar-form
+    {
+
+        margin-left: 60px;
+    }
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #3D7BDD;
+}
+
+/******** end header nav styles *******/

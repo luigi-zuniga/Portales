@@ -1,0 +1,100 @@
+
+/************** FOOTER **************/
+
+.bg-light-gray {
+    background-color: #eee;
+}
+
+#books-galery
+{
+    margin-top:40px;
+}
+
+
+.footer
+{
+    font-weight: lighter;
+    display:flex;
+    margin-top:50px;
+    height:250px;
+    background:#EEF5FE;
+    border-top:1px solid  #84A9DA;
+    padding: 5px 0;
+}
+
+.footer-enlaces
+{
+    font-size:14px;
+    padding-top:50px;
+}
+
+.footer-enlaces ul
+{
+    margin-left: -38px;
+    list-style:none;
+}
+
+.footer-enlaces li
+{
+    padding-bottom:10px;
+}
+
+.footer-enlaces p
+{
+    color: #3D7BDD;
+    
+}
+
+.footer-logos
+{
+    padding-top:40px;
+}
+
+
+.footer-search 
+{
+    margin-top:160px;
+}
+
+
+@media(max-width: 986px)
+{
+    .footer-search 
+    {
+        display:none;
+    }
+}
+
+
+@media(max-width: 768px)
+{
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse 
+    {
+        margin-right: 0px; 
+        margin-left: 0px; 
+
+    }
+
+    .navbar-form
+    {
+        margin-top: 0px; 
+        margin-right: 0px; 
+        margin-bottom: 0px; 
+        border-bottom: none; 
+    }
+
+    
+    .nav-header-logo 
+    {
+        display:none;
+    }
+
+    .nav-header-text
+    {
+        display:none;
+    }
+
+}
+
+
+/******* End Footer *************/

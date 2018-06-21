@@ -1,0 +1,14 @@
+/******** slider header styles *******/
+.carousel-static
+{
+    margin-top:100px;            
+}
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+/******* end slider header ***********/
