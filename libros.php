@@ -5,14 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Recomendaciones de Lectura | Home</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" href="bower_components/components-bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" href="Resources/styles/navprl.css"/>
-	<link rel="stylesheet" href="Resources/styles/homeStyles.css"/>
-	<link rel="stylesheet" href="Resources/styles/sliderprl.css"/>
+    <link rel="stylesheet" href="Resources/styles/librosStyles.css" />
 	<link rel="stylesheet" href="Resources/styles/footerprl.css"/>
-
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,40 +19,35 @@
     <![endif]-->
 </head>
 <body>
+
 	<?php
 		include("Views/navegation.php");
-		include("Views/slider.php");
 	?>
 
-		<section id="comite">
-			<div class="container">
-				<?php
-					include("Views/comite.php");
-				?>
-			</div>
-		</section>
+	<header id="header-comite">
+		<div class="container">
+			<?php
+				include("Views/Libros/libros_Header.php");
+			?>
+		</div>
+	</header>
 
-		<section id="books-galery" class=" bg-light-gray">
-				<?php
-					include("Views/carouselBooks.php");
-				?>
-		</section>
-
-		<section id="comiteDestacado">
-			<div class="container">
-				<?php
-					include("Views/comiteDestacado.php");
-				?>
-			</div>
-		<section>
-
- <div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<?php
+				include("Views/Libros/libros_Busqueda.php");   
+				include("Views/Libros/libros_Lista.php");
+			?>
+		</div>
+	</div>
+    
+    <div class="container-fluid">
 	<div class="row">
 		<?php
 			include("Views/footer.php");
 		?>
-	</div>
-	</div>
+    </div>
+    </div>
 
    <!-- scripts -->
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>

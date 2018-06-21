@@ -1,7 +1,7 @@
 <div class="container"> 
 	<!--Header-->
 			<div class="page-header">
-				<h2>Últimos Libros Recomendados<a href="#"><small> <u>Ver todos los libros</u></small></a></h2>
+				<h2>Últimos Libros Recomendados<a href="libros.php"><small> <u>Ver todos los libros</u></small></a></h2>
 			</div>
 			<!--end Header-->
 </div>

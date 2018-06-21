@@ -41,10 +41,12 @@
 		</div>
 	</div>
 	
+	<div class="container-fluid">
 	<div class="row">
 		<?php
 			include("Views/footer.php");
 		?>
+	</div>
 	</div>
 
    <!-- scripts -->
