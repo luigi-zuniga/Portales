@@ -23,8 +23,8 @@
 							<input type="text" class="form-control" placeholder="¿Buscas algo en particular?" />
 							<button type="button" class="btn btn-primary btn-sm">Buscar</button>
 						</form>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="recomendaciones.php"><u>Recomendaciones</u></a></li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#"><u>Recomendaciones</u></a></li>
 					<li><a href="#">Comités</a></li>
 					<li><a href="#">Contacto</a></li>
 				</ul>

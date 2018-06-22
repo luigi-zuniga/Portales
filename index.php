@@ -21,39 +21,41 @@
     <![endif]-->
 </head>
 <body>
+
 	<?php
-		include("Views/navegation.php");
-		include("Views/slider.php");
+		include("Views/Home/navegation.php");
+		include("Views/Home/slider.php");
 	?>
-
-		<section id="comite">
-			<div class="container">
-				<?php
-					include("Views/comite.php");
-				?>
-			</div>
-		</section>
-
-		<section id="books-galery" class=" bg-light-gray">
-				<?php
-					include("Views/carouselBooks.php");
-				?>
-		</section>
-
 		<section id="comiteDestacado">
 			<div class="container">
 				<?php
-					include("Views/comiteDestacado.php");
+					include("Views/Home/recomendaciones_section.php");
 				?>
 			</div>
 		<section>
 
- <div class="container-fluid">
-	<div class="row">
-		<?php
-			include("Views/footer.php");
-		?>
-	</div>
+
+		<section id="books-galery" class=" bg-light-gray">
+				<?php
+					include("Views/Home/ejemplares_section.php");
+				?>
+		</section>
+
+
+	<section id="comite">
+			<div class="container">
+				<?php
+					include("Views/Home/comite_section.php");
+				?>
+			</div>
+		</section>
+
+	<div class="container-fluid">
+		<div class="row">
+			<?php
+				include("Views/Home/footer.php");
+			?>
+		</div>
 	</div>
 
    <!-- scripts -->
