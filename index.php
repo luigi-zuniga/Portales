@@ -57,6 +57,11 @@
 			?>
 		</div>
 	</div>
+	
+	<!--Modal Ejemplares-->
+	<?php
+		include("Views/Home/modal_ejemplar.php");
+	?>
 
    <!-- scripts -->
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>

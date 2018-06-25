@@ -19,9 +19,9 @@
 					</div>
 				</div>
 				<ul class="nav navbar-nav">
-					<form class="navbar-form" role="search">
+					<form class="navbar-form" role="search" action="Views/Home/home_list_bus.php">
 							<input type="text" class="form-control" placeholder="¿Buscas algo en particular?" />
-							<button type="button" class="btn btn-primary btn-sm">Buscar</button>
+							<button type="submit" class="btn btn-primary btn-sm">Buscar</button>
 						</form>
 					<li><a href="#">Inicio</a></li>
 					<li><a href="#"><u>Recomendaciones</u></a></li>

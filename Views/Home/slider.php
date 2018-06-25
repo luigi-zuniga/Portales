@@ -4,7 +4,7 @@
 				<div class="carousel-inner">
 					<div class="item active">
 						<img src="https://dummyimage.com/1980x500/575757/e6e6ed.jpg" alt="First slide">
-					</div>
+					</div>	
 				</div>
 			<div class="main-text hidden-xs">
 				<div class="col-md-12 text-center">

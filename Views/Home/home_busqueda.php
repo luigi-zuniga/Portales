@@ -14,13 +14,13 @@
                 </select>
                 <br/>
 
-                <label class="control-label">Público:</label>
+                <label class="control-label">Temas:</label>
                 <select class="form-control" id="filtroRegion">
                     <option value="">Seleccione una Opción</option>
                 </select>
                 <br/>
 
-                <label class="control-label">Comité:</label>
+                <label class="control-label">Materias:</label>
                 <select class="form-control" id="filtroRegion">
                     <option value="">Selecciona una Región</option>
                 </select>

@@ -1,6 +1,6 @@
 
 		<div class="page-header">
-				 <h2>Comités Destacados <a href="Views/Comites/comite.php"><small><u>Ver todos los comités</u></small></a></h2>
+				 <h2>Otros Comités <a href="Views/Comites/comite.php"><small><u>Ver todos los comités</u></small></a></h2>
 		</div>
 
 		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">          
