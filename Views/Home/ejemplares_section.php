@@ -12,7 +12,7 @@
 				<div class="thumbnail-books">
 					<img class="img-responsive" src="Resources/img/portada.jpg"  alt="..."/>
 						<div class="caption-books">
-							<h4><a href="#" data-toggle="modal" data-target="#myModal"><i class="far fa-eye fa-1x"></i> Ver</a></h4>
+							<h4><a href="Views/Ejemplares/ejem_desc.php"><i class="far fa-eye fa-1x"></i> Ver</a></h4>
 						</div>
 				</div>
 				<div class="thumbnail-text">

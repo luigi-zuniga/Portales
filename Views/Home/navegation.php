@@ -11,22 +11,24 @@
 			<div class="container">
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<div class="nav-header">
+					<a href="/Portales/">
 					<div class="nav-header-logo">
-						<i class="fas fa-clone fa-4x"></i>
+						<img class="img-responsive" src="/Portales/Resources/img/logo.png" alt="" width="30%"/>
 					</div>
 					<div class="nav-header-text">
 						<h1>Recomendaciones<br/> de Lectura</h1>
 					</div>
+					</a>
 				</div>
 				<ul class="nav navbar-nav">
-					<form class="navbar-form" role="search" action="Views/Home/home_list_bus.php">
+					<form class="navbar-form" role="search" action="/Portales/Views/Recomendaciones/recom_list_busq.php?">
 							<input type="text" class="form-control" placeholder="¿Buscas algo en particular?" />
 							<button type="submit" class="btn btn-primary btn-sm">Buscar</button>
 						</form>
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#"><u>Recomendaciones</u></a></li>
-					<li><a href="#">Comités</a></li>
-					<li><a href="#">Contacto</a></li>
+					<li><a href="/Portales/">Inicio</a></li>
+					<li><a href="/Portales/Views/Recomendaciones/recomendaciones.php"><u>Recomendaciones</u></a></li>
+					<li><a href="/Portales/Views/Comites/comite.php">Comités</a></li>
+					<li><a href="/Portales/Views/Comites/contacto.php">Contacto</a></li>
 				</ul>
 			</div>    
 		</div>

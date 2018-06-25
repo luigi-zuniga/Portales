@@ -7,7 +7,7 @@
 			<div class="thumbnail">
 					<!-- Efecto Hover -->
 					<div class="caption">
-						<h4><a href="#"><i class="far fa-eye fa-1x"></i> Ver</a></h4>
+						<h4><a href="Views/Comites/com_integrantes.php"><i class="far fa-eye fa-1x"></i> Ver</a></h4>
 					</div>
 					<!-- fin efecto hover -->
 					 <h4>Título del comité de uno hasta tres reglones en la vista previa del set. </h4>

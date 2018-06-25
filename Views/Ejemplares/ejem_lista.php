@@ -1,6 +1,6 @@
 <section id="comites-boxes">
 
-		<!-- 1  Filtro Arriendo -->
+		<!-- 1  Filtro  -->
 		<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
 			<div class="recom-filtro">
 				<form class="form-inline" action="/action_page.php">
