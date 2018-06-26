@@ -16,7 +16,7 @@
 
             <div class="col-lg-4 col-md-5 col-sm-6 col-xs-8">
                 <div class="footer-logos text-center">
-                    <img src="/Portales/Resources/img/logo-gob.PNG" alt="">
+                    <a href="http://www.cultura.gob.cl/ministerio/"><img src="/Portales/Resources/img/logo-gob.png" alt="" width="45%"></a>
                     <img src="https://dummyimage.com/150x150/575757/e6e6ed.jpg" alt="">
                 </div>
             </div>

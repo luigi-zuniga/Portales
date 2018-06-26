@@ -12,12 +12,12 @@
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<div class="nav-header">
 					<a href="/Portales/">
-					<div class="nav-header-logo">
-						<img class="img-responsive" src="/Portales/Resources/img/logo.png" alt="" width="30%"/>
-					</div>
-					<div class="nav-header-text">
-						<h1>Recomendaciones<br/> de Lectura</h1>
-					</div>
+						<div class="nav-header-logo">
+							<i class="fas fa-clone fa-4x"></i>
+						</div>
+						<div class="nav-header-text">
+							<h1>Recomendaciones<br/> de Lectura</h1>
+						</div>
 					</a>
 				</div>
 				<ul class="nav navbar-nav">
